@@ -63,7 +63,7 @@ Follow these steps to set up and run the project locally.
 
 1.  **Launch the Streamlit app:**
     ```bash
-    streamlit run app.py
+    streamlit run streamlitapp.py
     ```
 
 2.  Open your web browser and navigate to `http://localhost:8501`.
