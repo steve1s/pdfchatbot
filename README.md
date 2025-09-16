@@ -1,8 +1,8 @@
-# DocuChat: AI-Powered PDF Q&A 📄💬
+# Chatbot: AI-Powered PDF Q&A 📄💬
 
 DocuChat is a web application that lets you have a conversation with your documents. Simply upload one or more PDFs, and ask any questions you have about their content. The app uses the power of Large Language Models (LLMs) to provide accurate, context-aware answers.
 
-![DocuChat Demo GIF](https://your-gif-url-here.gif) ## ✨ Features
+![DocuChat Demo GIF](https://github.com/steve1s/pdfchatbot) ## ✨ Features
 
 -   **Interactive Chat Interface:** A user-friendly interface for asking questions.
 -   **Multiple Document Support:** Upload and query multiple PDFs at once.
@@ -31,14 +31,14 @@ Follow these steps to set up and run the project locally.
 ### Prerequisites
 
 -   Python 3.8+
--   An [OpenAI API Key](https.platform.openai.com/account/api-keys)
+-   No API keys required
 
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/docuchat-ai.git](https://github.com/your-username/docuchat-ai.git)
-    cd docuchat-ai
+    git clone [https://github.com/steve1s/pdfchatbot](https://github.com/steve1s/pdfchatbot)
+    cd chatbotwithai
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -57,12 +57,7 @@ Follow these steps to set up and run the project locally.
     pip install -r requirements.txt
     ```
 
-4.  **Set up your environment variables:**
-    -   Create a file named `.env` by duplicating `.env.example`.
-    -   Add your OpenAI API key to the `.env` file:
-    ```
-    OPENAI_API_KEY="sk-YourSecretAPIKeyGoesHere"
-    ```
+
 
 ### Running the Application
 
@@ -82,6 +77,3 @@ Follow these steps to set up and run the project locally.
 -   [FAISS](https://github.com/facebookresearch/faiss) - Vector store
 -   [PyPDF2](https://pypi.org/project/PyPDF2/) - PDF text extraction
 
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
